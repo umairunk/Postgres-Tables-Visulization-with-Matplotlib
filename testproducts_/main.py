@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from sqlalchemy import create_engine
 
 # Database connection URL
-db_url = "postgresql://username:password@localhost:port/database"
+db_url = "postgresql://username:password@localhost:port/database"  # edit your own database connection string
 
 # Create SQLAlchemy engine
 engine = create_engine(db_url)
